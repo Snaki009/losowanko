@@ -79,7 +79,7 @@ export const startGames = {
   115: 'Przegrany z drabinki 1',
   117: 'Przegrany z drabinki 1',
   119: 'Przegrany z drabinki 1',
-  132: 'Przegrany z drabinki 1',
+  141: 'Przegrany z drabinki 1',
   135: 'Przegrany z drabinki 1',
   137: 'Przegrany z drabinki 1',
   139: 'Przegrany z drabinki 1',
@@ -150,10 +150,10 @@ const Ladder = () => {
           <Pair ids={[79, 80]} goesTo={{winner: 104, loser: 119}}/>
         </Column>
         <Column>
-          <Pair ids={[97, 98]} goesTo={{winner: 121, loser: 132}} />
-          <Pair ids={[99, 100]} goesTo={{winner: 122, loser: 135}} />
-          <Pair ids={[101, 102]} goesTo={{winner: 123, loser: 137}} />
-          <Pair ids={[103, 104]} goesTo={{winner: 124, loser: 139}} />
+          <Pair ids={[97, 98]} goesTo={{winner: 121, loser: 135}} />
+          <Pair ids={[99, 100]} goesTo={{winner: 122, loser: 137}} />
+          <Pair ids={[101, 102]} goesTo={{winner: 123, loser: 139}} />
+          <Pair ids={[103, 104]} goesTo={{winner: 124, loser: 141}} />
 
         </Column>
         <Column>
