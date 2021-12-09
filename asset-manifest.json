@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/losowanko/static/css/main.a617e044.chunk.css",
+    "main.js": "/losowanko/static/js/main.3432a01e.chunk.js",
+    "main.js.map": "/losowanko/static/js/main.3432a01e.chunk.js.map",
+    "runtime-main.js": "/losowanko/static/js/runtime-main.2d73289d.js",
+    "runtime-main.js.map": "/losowanko/static/js/runtime-main.2d73289d.js.map",
+    "static/js/2.2589874b.chunk.js": "/losowanko/static/js/2.2589874b.chunk.js",
+    "static/js/2.2589874b.chunk.js.map": "/losowanko/static/js/2.2589874b.chunk.js.map",
+    "static/js/3.01788b31.chunk.js": "/losowanko/static/js/3.01788b31.chunk.js",
+    "static/js/3.01788b31.chunk.js.map": "/losowanko/static/js/3.01788b31.chunk.js.map",
+    "index.html": "/losowanko/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/losowanko/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.2589874b.chunk.js.LICENSE.txt": "/losowanko/static/js/2.2589874b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2d73289d.js",
+    "static/js/2.2589874b.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.3432a01e.chunk.js"
+  ]
+}
