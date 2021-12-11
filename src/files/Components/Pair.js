@@ -18,8 +18,8 @@ const Pair = ({ids, goesTo}) => {
 
   return (
     <>
-      <Block id={0} game={context.winnerTab[ids[0]]} onClick={onClick}/>
-      <Block id={1} game={context.winnerTab[ids[1]]} onClick={onClick}/>
+      <Block id={0} game={context.winnerTab[ids[0]]} onClick={onClick} winner={context.winnerTab[goesTo.winner] === context.winnerTab[ids[0]] && context.winnerTab[goesTo.winner]}/>
+      <Block id={1} game={context.winnerTab[ids[1]]} onClick={onClick} winner={context.winnerTab[goesTo.winner] === context.winnerTab[ids[1]] && context.winnerTab[goesTo.winner]}/>
     </>
   );
 }

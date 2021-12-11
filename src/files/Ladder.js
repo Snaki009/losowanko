@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Pair from './Components/Pair'
+import Block from './Components/Block'
 import NavBar from './Components/NavBar'
 import { styled } from '@mui/system';
 
@@ -164,7 +165,10 @@ const Ladder = () => {
           <Pair ids={[133, 134]} goesTo={{winner: 143, loser: 0}} />
         </Column>
         <Column>
-          <Pair ids={[143, 144]} goesTo={{winner: 0, loser: 0}} />
+          <Pair ids={[143, 144]} goesTo={{winner: 155, loser: 0}} />
+        </Column>
+        <Column>
+          <Block id={155} game={winnerTab[155]} onClick={() => {}} winner variant={'contained'}/>
         </Column>
       </Container>
       <Divider/>
@@ -226,11 +230,11 @@ const Ladder = () => {
           <Pair ids={[147, 148]} goesTo={{winner: 152, loser: 0}} />
         </Column>
         <Column>
-          <Pair ids={[149, 150]} goesTo={{winner: 150, loser: 0}} />
-          <Pair ids={[151, 152]} goesTo={{winner: 151, loser: 0}} />
+          <Pair ids={[149, 150]} goesTo={{winner: 153, loser: 0}} />
+          <Pair ids={[151, 152]} goesTo={{winner: 154, loser: 0}} />
         </Column>
         <Column>
-          <Pair ids={[150, 151]} goesTo={{winner: 144, loser: 0}} />
+          <Pair ids={[153, 154]} goesTo={{winner: 144, loser: 0}} />
         </Column>
       </Container>
     </GamesContext.Provider>
