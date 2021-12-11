@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/losowanko/static/css/main.a617e044.chunk.css",
-    "main.js": "/losowanko/static/js/main.564c0fcc.chunk.js",
-    "main.js.map": "/losowanko/static/js/main.564c0fcc.chunk.js.map",
+    "main.js": "/losowanko/static/js/main.d814d96e.chunk.js",
+    "main.js.map": "/losowanko/static/js/main.d814d96e.chunk.js.map",
     "runtime-main.js": "/losowanko/static/js/runtime-main.e5bba2c3.js",
     "runtime-main.js.map": "/losowanko/static/js/runtime-main.e5bba2c3.js.map",
     "static/js/2.b570684a.chunk.js": "/losowanko/static/js/2.b570684a.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.e5bba2c3.js",
     "static/js/2.b570684a.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.564c0fcc.chunk.js"
+    "static/js/main.d814d96e.chunk.js"
   ]
 }
