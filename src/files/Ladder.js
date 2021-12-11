@@ -87,6 +87,8 @@ export const startGames = {
   149: 'Przegrany z drabinki 1',
   151: 'Przegrany z drabinki 1',
   155: 'Przegrany z drabinki 1',
+  157: 'Przegrany z drabinki 1',
+
 
   144: 'Wygrany drabinki 2',
 }
@@ -166,10 +168,10 @@ const Ladder = () => {
           <Pair ids={[133, 134]} goesTo={{winner: 143, loser: 155}} />
         </Column>
         <Column>
-          <Pair ids={[143, 144]} goesTo={{winner: 157, loser: 0}} />
+          <Pair ids={[143, 144]} goesTo={{winner: 159, loser: 157}} />
         </Column>
         <Column>
-          <Block id={157} game={winnerTab[157]} onClick={() => {}} winner variant={'contained'}/>
+          <Block id={159} game={winnerTab[159]} onClick={() => {}} winner variant={'contained'}/>
         </Column>
       </Container>
       <Divider/>
@@ -238,7 +240,10 @@ const Ladder = () => {
           <Pair ids={[153, 154]} goesTo={{winner: 156, loser: 0}} />
         </Column>
         <Column>
-          <Pair ids={[155, 156]} goesTo={{winner: 144, loser: 0}} />
+          <Pair ids={[155, 156]} goesTo={{winner: 158, loser: 0}} />
+        </Column>
+        <Column>
+          <Pair ids={[157, 158]} goesTo={{winner: 144, loser: 0}} />
         </Column>
       </Container>
     </GamesContext.Provider>
