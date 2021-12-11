@@ -240,10 +240,10 @@ const Ladder = () => {
           <Pair ids={[153, 154]} goesTo={{winner: 156, loser: 0}} />
         </Column>
         <Column>
-          <Pair ids={[155, 156]} goesTo={{winner: 158, loser: 0}} />
+          <Pair ids={[155, 156]} goesTo={{winner: 144, loser: 158}} />
         </Column>
         <Column>
-          <Pair ids={[157, 158]} goesTo={{winner: 144, loser: 0}} />
+          <Pair ids={[157, 158]} goesTo={{winner: 160, loser: 161}} />
         </Column>
       </Container>
     </GamesContext.Provider>
